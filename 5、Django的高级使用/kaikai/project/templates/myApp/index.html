@@ -1,0 +1,16 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'myApp/css/style.css' %}"/>
+    <script type="text/javascript" src="/static/myApp/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/static/myApp/js/sunck.js"></script>
+</head>
+<body>
+    <h1>sunck is a good man</h1>
+    <img src="/static/myApp/img/2.png"/>
+    <img src="{% static 'myApp/img/2.png' %}"/>
+</body>
+</html>
